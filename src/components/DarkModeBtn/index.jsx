@@ -30,7 +30,7 @@ const DarkModeBtn = () => {
   };
 
   return (
-    <button className='hover:bg-neutral-100 focus:bg-neutral-100 dark:hover:bg-neutral-800 dark:focus:bg-neutral-800 focus:ring-2 ring-neutral-200 dark:ring-neutral-700 p-2 rounded-lg text-neutral-600 dark:text-neutral-400' onClick={toggleDarkMode}>
+    <button className='hover:bg-neutral-100 focus:bg-neutral-100 dark:hover:bg-neutral-800 dark:focus:bg-neutral-800 focus:ring-2 ring-neutral-200 dark:ring-neutral-700 p-2 rounded-full text-neutral-600 dark:text-neutral-400' onClick={toggleDarkMode}>
       {darkMode ? SunSvg : MoonSvg}
     </button>
   );
