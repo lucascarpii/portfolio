@@ -1,12 +1,14 @@
 ---
-import { Navbar } from '../components/Navbar'
+import Layout from '../layouts/Layout.astro';
 import { Hero } from '../components/Hero'
 import { About } from '../components/About'
-import Layout from '../layouts/Layout.astro';
+import { Navbar } from '../components/Navbar'
+import { Projects } from '../components/Projects'
 ---
 
 <Layout title="Mi Portafolio">
 	<Navbar client:visible />
 	<Hero />
 	<About />
+	<Projects client:visible />
 </Layout>
