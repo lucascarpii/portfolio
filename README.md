@@ -6,19 +6,27 @@ Sitio web de mi portafolio personal construido con Astro, React y Tailwind.
 
 1. Clona el repositorio:
    
-    git clone git@github.com:lucascarpii/portfolio.git
+```
+git clone git@github.com:lucascarpii/portfolio.git
+```
 
-3. Navega hasta el directorio del proyecto:
+2. Navega hasta el directorio del proyecto:
    
-    cd portfolio
+```
+cd portfolio
+```
 
-4. Instala las dependencias:
+3. Instala las dependencias:
    
-    npm install
+```
+npm install
+```
 
-6. Inicia el servidor de desarrollo:
+4. Inicia el servidor de desarrollo:
    
-    npm run dev
+```
+npm run dev
+```
 
 ## Comandos de astro
 
