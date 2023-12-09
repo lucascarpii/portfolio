@@ -22,7 +22,7 @@ export default function Carousel({ slides }) {
   };
 
   return (
-    <div className="overflow-hidden relative rounded-lg">
+    <div className="overflow-hidden relative rounded-lg shadow-lg">
       <div
         className={`flex transition ease-in-out duration-400`}
         style={{
@@ -35,10 +35,10 @@ export default function Carousel({ slides }) {
       </div>
 
       <div className="absolute top-0 h-full w-full justify-between items-center flex text-white px-4 text-3xl">
-        <button className="bg-white/20 rounded-full p-2" onClick={previousSlide}>
+        <button className="bg-black/20 rounded-full p-2" onClick={previousSlide}>
           {chevronLeft}
         </button>
-        <button className="bg-white/20 rounded-full p-2" onClick={nextSlide}>
+        <button className="bg-black/20 rounded-full p-2" onClick={nextSlide}>
           {chevronRight}
         </button>
       </div>
@@ -52,7 +52,7 @@ export default function Carousel({ slides }) {
               }}
               key={"circle" + i}
               className={`rounded-full w-3 h-3 cursor-pointer  ${
-                i == current ? "bg-white" : "bg-white/20"
+                i == current ? "bg-white shadow" : "bg-white/20 shadow"
               }`}
             ></div>
           );

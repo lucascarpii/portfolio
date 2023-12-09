@@ -1,7 +1,7 @@
 
 const About = () => {
   return(
-    <section className="p-4 sm:py-6 border-b dark:border-neutral-800">
+    <section id="about" className="p-4 sm:py-6 border-b dark:border-neutral-800">
       <h2 className="text-neutral-600 dark:text-neutral-200 text-lg font-semibold">Acerca de mí</h2>
       <p className="text-neutral-400 dark:text-neutral-400 text-sm">
       Como desarrollador de software autónomo, hace dos años me dedico a diseñar y crear aplicaciones.<br />
