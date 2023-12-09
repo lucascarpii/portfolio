@@ -2,6 +2,20 @@
 
 Sitio web de mi portafolio personal construido con Astro, React y Tailwind.
 
+## Instalación y Uso
+
+1. Clona el repositorio:
+    git clone <url-del-repositorio>
+
+2. Navega hasta el directorio del proyecto:
+    cd <nombre-del-proyecto>
+
+3. Instala las dependencias:
+    npm install
+
+4. Inicia el servidor de desarrollo:
+    npm run dev
+
 ## Comandos de astro
 
 | Comando                   | Acción                                           |
