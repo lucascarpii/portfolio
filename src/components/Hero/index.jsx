@@ -1,4 +1,3 @@
-
 const Hero = () => {
   return (
     <section className="grid grid-cols-4 sm:grid-cols-[100px_auto] gap-4 p-4 sm:py-6 border-b dark:border-neutral-800">

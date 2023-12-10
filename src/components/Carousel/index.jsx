@@ -1,11 +1,11 @@
 import { useState } from "react";
 
-const chevronLeft = <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" strokeWidth={1.5} stroke="currentColor" className="w-6 h-6">
-<path strokeLinecap="round" strokeLinejoin="round" d="M15.75 19.5L8.25 12l7.5-7.5" />
+const arrowLeft = <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor" className="w-6 h-6">
+<path fillRule="evenodd" d="M20.25 12a.75.75 0 01-.75.75H6.31l5.47 5.47a.75.75 0 11-1.06 1.06l-6.75-6.75a.75.75 0 010-1.06l6.75-6.75a.75.75 0 111.06 1.06l-5.47 5.47H19.5a.75.75 0 01.75.75z" clipRule="evenodd" />
 </svg>
 
-const chevronRight = <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" strokeWidth={1.5} stroke="currentColor" className="w-6 h-6">
-<path strokeLinecap="round" strokeLinejoin="round" d="M8.25 4.5l7.5 7.5-7.5 7.5" />
+const arrowRight = <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor" className="w-6 h-6">
+<path fillRule="evenodd" d="M3.75 12a.75.75 0 01.75-.75h13.19l-5.47-5.47a.75.75 0 011.06-1.06l6.75 6.75a.75.75 0 010 1.06l-6.75 6.75a.75.75 0 11-1.06-1.06l5.47-5.47H4.5a.75.75 0 01-.75-.75z" clipRule="evenodd" />
 </svg>
 
 export default function Carousel({ slides }) {
@@ -34,12 +34,12 @@ export default function Carousel({ slides }) {
         })}
       </div>
 
-      <div className="absolute top-0 h-full w-full justify-between items-center flex text-white px-4 text-3xl">
-        <button className="bg-black/20 rounded-full p-2" onClick={previousSlide}>
-          {chevronLeft}
+      <div className="absolute top-0 h-full w-full justify-between items-center flex text-white px-2 text-3xl">
+        <button className="bg-black/30 p-1.5 rounded-full" onClick={previousSlide}>
+          {arrowLeft}
         </button>
-        <button className="bg-black/20 rounded-full p-2" onClick={nextSlide}>
-          {chevronRight}
+        <button className="bg-black/30 p-1.5 rounded-full" onClick={nextSlide}>
+          {arrowRight}
         </button>
       </div>
 
@@ -52,7 +52,7 @@ export default function Carousel({ slides }) {
               }}
               key={"circle" + i}
               className={`rounded-full w-3 h-3 cursor-pointer  ${
-                i == current ? "bg-white shadow" : "bg-white/20 shadow"
+                i == current ? "bg-white shadow-md shadow-black/30" : "bg-black/10 shadow-md shadow-black/30"
               }`}
             ></div>
           );

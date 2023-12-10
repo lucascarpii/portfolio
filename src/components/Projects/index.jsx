@@ -17,16 +17,11 @@ const projects = [
     desc: 'El objetivo de esta aplicacion fue solucionar el problema que tenia la empresa para controlar el balance de gastos e ingresos.',
     techs: 'SvelteKit • Vercel • Vite • TailwindCss • JS',
     slides: [
-      "/public/distri-daf/mobile-views.png",
-      "/public/distri-daf/dark-mobile-views.png",
-      "/public/distri-daf/dark-home.png",
-      "/public/distri-daf/dark-clients.png",
-      "/public/distri-daf/dark-prov.png",
-      "/public/distri-daf/dark-chart.png",
       "/public/distri-daf/home.png",
       "/public/distri-daf/clients.png",
       "/public/distri-daf/prov.png",
       "/public/distri-daf/chart.png",
+      "/public/distri-daf/dark-home.png",
     ]
   },
 ]
@@ -34,8 +29,8 @@ const projects = [
 const Projects = () => {
   return (
     <section id="projects" className="p-4 sm:py-6 border-b dark:border-neutral-800">
-      <h2 className="text-neutral-600 dark:text-neutral-200 text-lg font-semibold mb-6">Proyectos que realicé</h2>
-      <div className="flex flex-col gap-14">
+      <h2 className="text-neutral-600 dark:text-neutral-200 text-lg font-semibold mb-6">Trabajos como Freelance</h2>
+      <div className="flex flex-col gap-8">
         {projects.map((project, index) => (
           <ProjectArticle
             key={index}
