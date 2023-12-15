@@ -6,10 +6,10 @@ const projects = [
     desc: 'Esta plataforma fue desarrollada para el Instituto Superior ISEI con el objetivo de facilitar el aprendizaje y la enseñanza, por medio de cursos y contenidos online.',
     techs: 'ReactJS • Vite • TailwindCSS • JS',
     slides: [
-      "/public/campusvi/index.png",
-      "/public/campusvi/cursos.png",
-      "/public/campusvi/home.png",
-      "/public/campusvi/dark-home.png",
+      "/campusvi/index.png",
+      "/campusvi/cursos.png",
+      "/campusvi/home.png",
+      "/campusvi/dark-home.png",
     ]
   },
   {
@@ -17,11 +17,11 @@ const projects = [
     desc: 'El objetivo de esta aplicacion fue solucionar el problema que tenia la empresa para controlar el balance de gastos e ingresos.',
     techs: 'SvelteKit • Vercel • Vite • TailwindCSS • JS',
     slides: [
-      "/public/distri-daf/home.png",
-      "/public/distri-daf/clients.png",
-      "/public/distri-daf/prov.png",
-      "/public/distri-daf/chart.png",
-      "/public/distri-daf/dark-home.png",
+      "/distri-daf/home.png",
+      "/distri-daf/clients.png",
+      "/distri-daf/prov.png",
+      "/distri-daf/chart.png",
+      "/distri-daf/dark-home.png",
     ]
   },
 ]

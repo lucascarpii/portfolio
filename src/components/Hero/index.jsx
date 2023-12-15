@@ -1,7 +1,7 @@
 const Hero = () => {
   return (
     <section className="grid grid-cols-4 sm:grid-cols-[100px_auto] gap-4 p-4 sm:py-6 border-b dark:border-neutral-800">
-      <img src="public\myself.jpg" alt="" className="max-w-[100px] transition-all duration-200 hover:-translate-y-1 rounded-full my-auto" />
+      <img src="/myself.jpg" alt="" className="max-w-[100px] transition-all duration-200 hover:-translate-y-1 rounded-full my-auto" />
       <div className="flex flex-col items-start justify-center col-span-3 sm:col-span-1">
         <h2 className="ml-1.5 text-neutral-600 dark:text-neutral-200 text-xl sm:text-2xl font-semibold">
           Hola, soy <span className="text-transparent bg-clip-text bg-gradient-to-l to-blue-600 from-purple-500 dark:from-blue-600 dark:to-purple-400 ">
